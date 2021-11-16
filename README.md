@@ -13,7 +13,7 @@ It can be installed via the following command:
 ## Setup:
 
 1. Open clean_downloads.py
-2. Change the 'PATH' global string variable to ***your*** absolute downloads directory.
+2. Change the `PATH` global string variable to ***your*** absolute downloads directory.
 
 ## Configuration:
 
