@@ -43,6 +43,7 @@ def main():
         if choice == 'y' or choice == 'Y':
             print('Sending', number_of_removed, 'file(s) to the trash!')
             send2trash(removed_paths)
+            time.sleep(2)
             break
 
         if choice == 'n' or choice == 'N':
