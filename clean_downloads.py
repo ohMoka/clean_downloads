@@ -2,6 +2,8 @@ import os
 import time
 from send2trash import send2trash
 
+# TODO: check architecture and adjust PATH acccordingly
+# Global Constants
 PATH = 'C:\\Users\\proje\\Downloads'
 DOWNLOADS_DIR = os.chdir(PATH)
 DOWNLOADS_LIST = os.listdir(DOWNLOADS_DIR)
@@ -26,8 +28,8 @@ def main():
     number_of_removed = len(removed_list)
     removed_paths = get_removed_paths(removed_list)
 
-    for i in removed_list:
-        print(i)
+    for elem in removed_list:
+        print(elem)
 
     if number_of_removed == 0:
         print('Nothing to remove!')
